@@ -1,0 +1,41 @@
+small {
+    font-size: 75%;
+  }
+
+  header {
+    background-image: url(../images/foggyforest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: darkgreen 5px;
+  }
+
+  .site-title {
+    color: orange;
+    text-align: center;
+  }
+
+  nav .container {
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  nav .container li {
+    background-image: url(../images/foggyforest.jpg);
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color:yellow;
+    box-sizing: border-box;
+    background-color: rgb(216, 11, 11);
+    list-style-type: none;
+  }
+
+  nav .container a {
+    color: red;
+  }
+
+  nav .container a:hover {
+    color: yellow;
+  }
