@@ -13,25 +13,28 @@
   ],
   "visitedParks": [
     {
-      "id": 1,
-      "userId": 3,
-      "parkId": 1,
-      "notes": "I love this park. always a fun time"
-    },
-    {
-      "id": 2,
+      "notes": "yo yo yo",
       "userId": 2,
       "parkId": 1,
-      "notes": "I was chased by the majestic grizzle bear"
+      "id": 2
     },
     {
-      "id": 3,
+      "notes": "this was fun",
+      "userId": 2,
+      "parkId": 5,
+      "id": 3
+    },
+    {
+      "notes": "wow a fun time",
       "userId": 1,
-      "parkId": 1,
-      "notes": "It rained all day on my fat pumpkin head!!!"
+      "parkId": 13,
+      "id": 4
     }
   ],
   "parks": [
+    {
+      "name": "Select a Park"
+    },
     {
       "id": 1,
       "name": "Audra State Park",

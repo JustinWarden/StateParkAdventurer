@@ -4,6 +4,7 @@ import Home from './Home'
 import BadgeCard from './meritbadges/BadgeCard'
 import HistoryCard from './history/HistoryCard'
 import Callback from './authentication/Callback'
+import DetailCard from './meritbadges/DetailCard'
 // import Auth0Client from "./authentication/Auth";
 
 class ApplicationViews extends Component {
@@ -15,7 +16,7 @@ class ApplicationViews extends Component {
 
 <Route
 path= "/home" render={(props)=> {
-  return <Home/>
+  return <Home {...props}/>
 }}
     // exact
     // path="/home"
@@ -29,12 +30,19 @@ path= "/home" render={(props)=> {
   //   }}
    />
         <Route path="/meritbadges" render={(props) => {
-          return <BadgeCard />
+          return <BadgeCard {...props}/>
+        }} />
+         <Route path="/meritbadges/details" render={(props) => {
+          return <DetailCard {...props}/>
         }} />
         <Route path="/history" render={(props) => {
           return <HistoryCard />
         }} />
         <Route exact path="/callback" component={Callback} />
+
+        <Route path="/meritbadges/new" render={(props) => {
+          return <BadgeCard />
+        }} />
       </React.Fragment>
     )
   }
