@@ -11,6 +11,7 @@
       "id": 2
     }
   ],
+  
   "visitedParks": [
     {
       "notes": "yo yo yo",
@@ -31,6 +32,7 @@
       "id": 4
     }
   ],
+
   "parks": [
     {
       "name": "Select a Park"
