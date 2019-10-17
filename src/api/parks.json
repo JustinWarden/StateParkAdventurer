@@ -11,7 +11,6 @@
       "id": 2
     }
   ],
-  
   "visitedParks": [
     {
       "notes": "yo yo yo",
@@ -30,9 +29,38 @@
       "userId": 1,
       "parkId": 13,
       "id": 4
+    },
+    {
+      "notes": "yay yay yay ",
+      "userId": 1,
+      "parkId": 6,
+      "id": 5
+    },
+    {
+      "notes": "i like to party",
+      "userId": 1,
+      "parkId": 33,
+      "id": 6
+    },
+    {
+      "notes": "this was fun",
+      "userId": 2,
+      "parkId": 10,
+      "id": 7
+    },
+    {
+      "notes": "goolly fun",
+      "userId": 2,
+      "parkId": 35,
+      "id": 8
+    },
+    {
+      "notes": "i got spooked !!!!!",
+      "userId": 2,
+      "parkId": 17,
+      "id": 9
     }
   ],
-
   "parks": [
     {
       "name": "Select a Park"

@@ -1,22 +1,18 @@
-import React, { Component } from 'react';
-import VisitedParksManager from '../VisitedParksManager'
-class BadgeCard extends Component {
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
-  componentDidMount() {
-    console.log("PARK LIST: ComponentDidMount");
-    //getAll from parksManager and hang on to that data; put it in state
-    VisitedParksManager.getAll().then(parksFromDatabase => {
-      console.log(parksFromDatabase);
-      this.setState({
-        parks: parksFromDatabase
-      });
-    });
-  }
+
+class BadgeCard extends Component {
   render() {
     return (
       <div className="card">
         <div className="card-content">
-         <h1>YOUR MERIT BADGES</h1>
+          <h3>
+            <span className="card-parkname">{this.props.parkProp.park.name}</span>
+          </h3>
+            <Link to={`/meritbadges/details/${this.props.parkProp.id}`}>
+            <button>Details</button>
+          </Link>
         </div>
       </div>
     );

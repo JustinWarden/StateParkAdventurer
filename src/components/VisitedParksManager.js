@@ -5,13 +5,15 @@ export default {
     return fetch(`${remoteURL}/visitedParks/${id}`).then(result => result.json());
   },
   getAll() {
-    return fetch(`${remoteURL}/visitedParks`).then(result => result.json());
-  },
+    return fetch(`${remoteURL}/visitedParks?_expand=park&userId=${sessionStorage.getItem('credentials')}`).then(result => result.json());
+    },
+
   delete(id) {
     return fetch(`${remoteURL}/visitedParks/${id}`, {
       method: "DELETE"
     }).then(result => result.json());
   },
+
   post(newVisitedParks) {
     return fetch(`${remoteURL}/visitedParks`, {
       method: "POST",
