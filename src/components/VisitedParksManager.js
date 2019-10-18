@@ -2,7 +2,7 @@ const remoteURL = "http://localhost:1982";
 
 export default {
   getOne(id) {
-    return fetch(`${remoteURL}/visitedParks/${id}`).then(result => result.json());
+    return fetch(`${remoteURL}/visitedParks/${id}/?_expand=park`).then(result => result.json());
   },
   getAll() {
     return fetch(`${remoteURL}/visitedParks?_expand=park&userId=${sessionStorage.getItem('credentials')}`).then(result => result.json());

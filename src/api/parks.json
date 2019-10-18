@@ -71,6 +71,12 @@
       "userId": 2,
       "parkId": 26,
       "id": 11
+    },
+    {
+      "notes": "great water fun",
+      "userId": 2,
+      "parkId": 34,
+      "id": 12
     }
   ],
   "parks": [

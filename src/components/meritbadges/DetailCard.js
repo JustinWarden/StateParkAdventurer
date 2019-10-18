@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import VisitedParksManager from '../VisitedParksManager';
 import '../Parks.css'
-import ParksManager from '../ParksManager';
+// import ParksManager from '../ParksManager';
 
 class DetailCard extends Component {
 
@@ -38,23 +38,24 @@ class DetailCard extends Component {
         //get(id) from AnimalManager and hang on to that data; put it into state
         VisitedParksManager.getOne(this.props.match.params.parkId)
         .then((park) => {
+            console.log(park)
             this.setState({
                 id: park.id,
-                name: park.name,
-                description: park.description,
+                name: park.park.name,
+                description: park.park.description,
                 notes: park.notes
             });
         });
         console.log("ParkDetail: ComponentDidMount");
         //get(id) from AnimalManager and hang on to that data; put it into state
-        ParksManager.getOne(this.props.match.params.parkId)
-        .then((park) => {
-            this.setState({
+        // ParksManager.getOne(this.props.match.params.parkId)
+        // .then((park) => {
+        //     this.setState({
 
-                name: park.name,
-                description: park.description,
-            });
-        });
+        //         name: park.name,
+        //         description: park.description,
+        //     });
+        // });
     };
 
     render() {
