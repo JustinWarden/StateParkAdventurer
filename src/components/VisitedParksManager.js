@@ -9,7 +9,7 @@ export default {
     },
 
   delete(id) {
-    return fetch(`${remoteURL}/visitedParks/${id}`, {
+    return fetch(`${remoteURL}/visitedParks`, {
       method: "DELETE"
     }).then(result => result.json());
   },
@@ -23,6 +23,7 @@ export default {
       body: JSON.stringify(newVisitedParks)
     }).then(data => data.json());
   },
+
   update(editedVisitedPark) {
     return fetch(`${remoteURL}/visitedParks/${editedVisitedPark.id}`, {
       method: "PUT",

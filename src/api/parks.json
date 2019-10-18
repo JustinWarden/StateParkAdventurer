@@ -59,6 +59,18 @@
       "userId": 2,
       "parkId": 17,
       "id": 9
+    },
+    {
+      "notes": "i really partied there",
+      "userId": 2,
+      "parkId": 7,
+      "id": 10
+    },
+    {
+      "notes": "it was fun",
+      "userId": 2,
+      "parkId": 26,
+      "id": 11
     }
   ],
   "parks": [

@@ -22,7 +22,7 @@ path= "/home" render={(props)=> {
         <Route exact path="/meritbadges" render={(props) => {
           return <BadgeList {...props}/>
         }} />
-         <Route path="/meritbadges/details" render={(props) => {
+         <Route path="/meritbadges/details/:parkId(\d+)" render={(props) => {
           return <DetailCard {...props}/>
         }} />
         <Route path="/history" render={(props) => {
