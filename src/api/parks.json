@@ -13,18 +13,6 @@
   ],
   "visitedParks": [
     {
-      "notes": "yo yo yo",
-      "userId": 2,
-      "parkId": 1,
-      "id": 2
-    },
-    {
-      "notes": "this was fun",
-      "userId": 2,
-      "parkId": 5,
-      "id": 3
-    },
-    {
       "notes": "wow a fun time",
       "userId": 1,
       "parkId": 13,
@@ -43,40 +31,16 @@
       "id": 6
     },
     {
-      "notes": "this was fun",
-      "userId": 2,
-      "parkId": 10,
-      "id": 7
-    },
-    {
-      "notes": "goolly fun",
-      "userId": 2,
-      "parkId": 35,
+      "notes": "lots of bears",
+      "userId": 1,
+      "parkId": 3,
       "id": 8
     },
     {
-      "notes": "i got spooked !!!!!",
-      "userId": 2,
-      "parkId": 17,
+      "notes": "it was sunny",
+      "userId": 1,
+      "parkId": 9,
       "id": 9
-    },
-    {
-      "notes": "i really partied there",
-      "userId": 2,
-      "parkId": 7,
-      "id": 10
-    },
-    {
-      "notes": "it was fun",
-      "userId": 2,
-      "parkId": 26,
-      "id": 11
-    },
-    {
-      "notes": "great water fun",
-      "userId": 2,
-      "parkId": 34,
-      "id": 12
     }
   ],
   "parks": [

@@ -6,7 +6,7 @@ class Home extends Component {
     //define what this component needs to render
     state = {
       parks: [],
-      userId: ""
+      userId: "",
     };
 
     handleFieldChange = evt => {
