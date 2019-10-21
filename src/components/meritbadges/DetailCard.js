@@ -9,13 +9,14 @@ class DetailCard extends Component {
         id: "",
         name: "",
         description: "",
-        notes: "",
+        notes: ""
 
     }
 
     handleDelete = () => {
         console.log("this is DELETE props", this.props)
-        VisitedParksManager.delete(this.props.parkId)
+        this.setState({loadingStatus: true})
+        VisitedParksManager.delete(this.props.match.params.parkId)
         .then(() => this.props.history.push("/meritbadges"))
     };
 
@@ -56,7 +57,8 @@ class DetailCard extends Component {
             <h3>Name: {this.state.name}</h3>
             <p>Description:{this.state.description}</p>
             <p>Notes: {this.state.notes}</p>
-
+            <button type="button"onClick={this.update}>Edit Notes</button>
+            <br></br>
             <button type="button"onClick={this.handleDelete}>Remove Park</button>
           </div>
         </div>

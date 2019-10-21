@@ -21,7 +21,8 @@ small {
   }
 
   nav .container li {
-    background-image: url(../images/foggyforest.jpg);
+    background-image: url(../images/rock.jpg);
+    background-size: 50px;
     flex: 1;
     padding: 10px;
     text-align: center;
@@ -33,9 +34,9 @@ small {
   }
 
   nav .container a {
-    color: red;
+    color: gold;
   }
 
   nav .container a:hover {
-    color: yellow;
+    color: red;
   }
