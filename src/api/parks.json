@@ -31,16 +31,10 @@
       "id": 6
     },
     {
-      "notes": "lots of bears",
+      "notes": "it was holly and jolly",
       "userId": 1,
-      "parkId": 3,
-      "id": 8
-    },
-    {
-      "notes": "it was sunny",
-      "userId": 1,
-      "parkId": 9,
-      "id": 9
+      "parkId": 20,
+      "id": 7
     }
   ],
   "parks": [

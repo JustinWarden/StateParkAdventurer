@@ -5,8 +5,9 @@ import VisitedParksManager from './VisitedParksManager'
 class Home extends Component {
     //define what this component needs to render
     state = {
+      notes: "",
       parks: [],
-      userId: "",
+      userId: ""
     };
 
     handleFieldChange = evt => {

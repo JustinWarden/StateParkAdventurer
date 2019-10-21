@@ -14,7 +14,7 @@ class DetailCard extends Component {
     }
 
     handleDelete = () => {
-        console.log("this is props", this.props)
+        console.log("this is DELETE props", this.props)
         VisitedParksManager.delete(this.props.parkId)
         .then(() => this.props.history.push("/meritbadges"))
     };
@@ -47,15 +47,6 @@ class DetailCard extends Component {
             });
         });
         console.log("ParkDetail: ComponentDidMount");
-        //get(id) from AnimalManager and hang on to that data; put it into state
-        // ParksManager.getOne(this.props.match.params.parkId)
-        // .then((park) => {
-        //     this.setState({
-
-        //         name: park.name,
-        //         description: park.description,
-        //     });
-        // });
     };
 
     render() {
