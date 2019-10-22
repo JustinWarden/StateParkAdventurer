@@ -13,16 +13,43 @@
   ],
   "visitedParks": [
     {
-      "notes": "it was holly and jolly",
+      "id": 1,
+      "notes": "i hate this",
       "userId": 1,
-      "parkId": 20,
-      "id": 7
+      "parkId": 18
+    },
+    {
+      "id": 2,
+      "notes": "not a wild time at all",
+      "userId": 1,
+      "parkId": 29
+    },
+    {
+      "id": 4,
+      "notes": "it was an elegant time",
+      "userId": 1,
+      "parkId": 16
+    },
+    {
+      "id": 5,
+      "notes": "wiggle bear danced on me",
+      "userId": 1,
+      "parkId": 34
+    },
+    {
+      "id": 8,
+      "notes": "real wild time",
+      "userId": 2,
+      "parkId": 28
+    },
+    {
+      "id": 9,
+      "notes": "real scary!!!!!!!!",
+      "userId": 2,
+      "parkId": 17
     }
   ],
   "parks": [
-    {
-      "name": "Select a Park"
-    },
     {
       "id": 1,
       "name": "Audra State Park",

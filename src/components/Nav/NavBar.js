@@ -16,7 +16,9 @@ class NavBar extends Component {
       <header>
         <h1 className="site-title">WEST VIRGINIA <br />
           <small>STATE PARK ADVENTURER</small>
-        </h1>
+          </h1>
+          <h4>Adventure is out there. Go and find it!</h4>
+
         <nav>
           <ul className="container">
             <li><Link className="nav-link" to="/">Home</Link></li>

@@ -24,13 +24,13 @@ export default {
     }).then(data => data.json());
   },
 
-  update(editedVisitedPark) {
-    return fetch(`${remoteURL}/visitedParks/${editedVisitedPark.id}`, {
+  update(editedNote) {
+    return fetch(`${remoteURL}/visitedParks/${editedNote.id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json"
       },
-      body: JSON.stringify(editedVisitedPark)
+      body: JSON.stringify(editedNote)
     }).then(data => data.json());
   }
 };

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import VisitedParksManager from '../VisitedParksManager';
 import '../Parks.css'
-// import ParksManager from '../ParksManager';
+
 
 class DetailCard extends Component {
 
@@ -9,9 +9,19 @@ class DetailCard extends Component {
         id: "",
         name: "",
         description: "",
-        notes: ""
+        notes: "",
+        image: ""
 
     }
+
+    handleFieldChange = evt => {
+      console.log("this is event.target.id", evt.target.id);
+      console.log("this is event.target.value", evt.target.value);
+      const stateToChange = {};
+      stateToChange[evt.target.id] = evt.target.value;
+      console.log("this is state to change", stateToChange);
+      this.setState(stateToChange);
+    };
 
     handleDelete = () => {
         console.log("this is DELETE props", this.props)
@@ -20,19 +30,20 @@ class DetailCard extends Component {
         .then(() => this.props.history.push("/meritbadges"))
     };
 
-//     updateExistingNotes = evt => {
-//         evt.preventDefault();
-//         this.setState({ loadingStatus: true });
-//         const editedNote = {
-//           id: this.props.match.params.userId,
-//           notes: this.state.notes,
-//         }
-//     }
+    updateExistingNotes = evt => {
+        evt.preventDefault();
+        // this.setState({ loadingStatus: true });
+        const editedNote = {
+          id: this.props.match.params.parkId,
+          notes: this.state.notes,
+          userId: this.state.userId,
+          parkId: this.state.parkId
+        }
+        VisitedParksManager.update(editedNote).then(() =>
+        this.props.history.push("/meritbadges")
+      );
+    }
 
-//     VisitedParksManager.update(editedNote).then(() =>
-//     this.props.history.push("/meritbadges")
-//   );
-// };
 
     componentDidMount(){
         console.log("ParkDetail: ComponentDidMount");
@@ -42,9 +53,12 @@ class DetailCard extends Component {
             console.log(park)
             this.setState({
                 id: park.id,
+                userId: park.userId,
+                parkId: park.parkId,
                 name: park.park.name,
                 description: park.park.description,
-                notes: park.notes
+                notes: park.notes,
+                image: park.park.imageURL
             });
         });
         console.log("ParkDetail: ComponentDidMount");
@@ -54,10 +68,25 @@ class DetailCard extends Component {
       return (
         <div className="card">
           <div className="card-content">
-            <h3>Name: {this.state.name}</h3>
-            <p>Description:{this.state.description}</p>
-            <p>Notes: {this.state.notes}</p>
-            <button type="button"onClick={this.update}>Edit Notes</button>
+            <h2>{this.state.name}</h2>
+            <picture>
+            <img src={this.state.imageURL} alt="State Park" />
+          </picture>
+
+            <h3>Description:</h3>
+            {this.state.description}
+
+            <h3>Notes:</h3>
+           <p> {this.state.notes}</p>
+
+            <textarea id="notes"
+    onChange={this.handleFieldChange}
+    >
+    </textarea>
+
+            <br></br>
+            <button type="button"onClick= {this.updateExistingNotes}>Edit Notes
+            </button>
             <br></br>
             <button type="button"onClick={this.handleDelete}>Remove Park</button>
           </div>
