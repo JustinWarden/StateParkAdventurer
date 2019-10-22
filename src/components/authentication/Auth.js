@@ -1,6 +1,8 @@
 import auth0 from 'auth0-js';
 import AuthConfig from './AuthConfig';
 
+
+//auth 0 configuration files
 class Auth {
   constructor() {
     this.auth0 = new auth0.WebAuth({

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+//history article with pictures 
 class HistoryCard extends Component {
   render() {
     return (

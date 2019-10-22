@@ -4,7 +4,7 @@ import '../Parks.css'
 
 
 class DetailCard extends Component {
-
+// set the state
     state = {
         id: "",
         name: "",
@@ -13,6 +13,7 @@ class DetailCard extends Component {
         image: ""
 
     }
+//change the text field with handlefieldchange
 
     handleFieldChange = evt => {
       console.log("this is event.target.id", evt.target.id);
@@ -22,13 +23,14 @@ class DetailCard extends Component {
       console.log("this is state to change", stateToChange);
       this.setState(stateToChange);
     };
-
+//will handle the delete function for the delete button
     handleDelete = () => {
         console.log("this is DELETE props", this.props)
         this.setState({loadingStatus: true})
         VisitedParksManager.delete(this.props.match.params.parkId)
         .then(() => this.props.history.push("/meritbadges"))
     };
+// this will update and edit the saved notes
 
     updateExistingNotes = evt => {
         evt.preventDefault();
@@ -44,10 +46,9 @@ class DetailCard extends Component {
       );
     }
 
-
+//get the parks id selected and set them to state
     componentDidMount(){
         console.log("ParkDetail: ComponentDidMount");
-        //get(id) from AnimalManager and hang on to that data; put it into state
         VisitedParksManager.getOne(this.props.match.params.parkId)
         .then((park) => {
             console.log(park)
@@ -63,7 +64,7 @@ class DetailCard extends Component {
         });
         console.log("ParkDetail: ComponentDidMount");
     };
-
+//render the park name, description, notes, text area, edit, and delete buttons
     render() {
       return (
         <div className="card">

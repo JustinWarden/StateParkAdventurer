@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 
+//this creates the main badge card page with a link to the merit badge page
+
 class BadgeCard extends Component {
   render() {
     return (

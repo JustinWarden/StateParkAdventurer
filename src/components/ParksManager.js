@@ -1,4 +1,5 @@
 const remoteURL = "http://localhost:1982";
+//fetch calls for all parks
 
 export default {
   getOne(id) {

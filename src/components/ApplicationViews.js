@@ -5,10 +5,11 @@ import BadgeList from './meritbadges/BadgeList'
 import HistoryCard from './history/HistoryCard'
 import Callback from './authentication/Callback'
 import DetailCard from './meritbadges/DetailCard'
-// import Auth0Client from "./authentication/Auth";
+
 
 class ApplicationViews extends Component {
-
+  
+//routes for navbar
   render() {
     return (
 

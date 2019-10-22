@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import VisitedParksManager from '../VisitedParksManager';
 import BadgeCard from './BadgeCard'
 
-// import home from '../Home'
 
 class BadgeList extends Component {
 
+  //set the state for the selected parks to load
   state = {
     parks: []
   };
@@ -23,6 +23,7 @@ class BadgeList extends Component {
 
   render() {
 
+    //this will populate the merit badge field with selected parks visited
     return (
       <>
 <h1>YOUR MERIT BADGES</h1>
