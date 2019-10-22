@@ -13,34 +13,22 @@
   ],
   "visitedParks": [
     {
-      "id": 1,
-      "notes": "i hate this",
-      "userId": 1,
-      "parkId": 18
-    },
-    {
-      "id": 2,
-      "notes": "not a wild time at all",
-      "userId": 1,
-      "parkId": 29
-    },
-    {
-      "id": 4,
-      "notes": "it was an elegant time",
-      "userId": 1,
-      "parkId": 16
-    },
-    {
-      "id": 5,
-      "notes": "wiggle bear danced on me",
-      "userId": 1,
-      "parkId": 34
-    },
-    {
       "id": 8,
       "notes": "real wild time",
       "userId": 2,
       "parkId": 28
+    },
+    {
+      "notes": "this is fun",
+      "userId": 1,
+      "parkId": 16,
+      "id": 9
+    },
+    {
+      "notes": "chooooo choooooo",
+      "userId": 1,
+      "parkId": 13,
+      "id": 10
     }
   ],
   "parks": [
