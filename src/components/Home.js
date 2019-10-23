@@ -7,7 +7,8 @@ class Home extends Component {
     state = {
       notes: "",
       parks: [],
-      userId: ""
+      userId: "",
+      parkId: ""
     };
 
     handleFieldChange = evt => {
@@ -34,14 +35,15 @@ class Home extends Component {
 
     constructNewPark = evt => {
       evt.preventDefault();
-      if (this.state.name === "" || this.state.notes === "") {
+      if (this.state.parkId === "" || this.state.notes === "") {
         window.alert("Please Select a Park and Enter Notes");
       } else {
         const visitedParks = {
           name: this.state.name,
           notes: this.state.notes,
           userId: parseInt(sessionStorage.getItem("credentials")),
-          parkId: +this.state.parkId// convert to number
+          parkId: +this.state.parkId,// convert to number
+
         };
 
     VisitedParksManager.post(visitedParks).then(() =>

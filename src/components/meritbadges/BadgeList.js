@@ -7,7 +7,8 @@ import BadgeCard from './BadgeCard'
 class BadgeList extends Component {
 
   state = {
-    parks: []
+    parks: [],
+
   };
 
   componentDidMount() {
@@ -16,10 +17,12 @@ class BadgeList extends Component {
     VisitedParksManager.getAll().then(parksFromDatabase => {
       console.log(parksFromDatabase);
       this.setState({
-        parks: parksFromDatabase
+        parks: parksFromDatabase,
+
       });
     });
   }
+
 
   render() {
 

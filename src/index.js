@@ -7,7 +7,6 @@ import Parks from './components/Parks'
 ReactDOM.render(
   <Router>
     <Parks />
-    {/* <ApplicationViews/> */}
   </Router>
   , document.getElementById('root'))
 

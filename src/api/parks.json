@@ -13,43 +13,71 @@
   ],
   "visitedParks": [
     {
-      "id": 1,
-      "notes": "i hate this",
-      "userId": 1,
-      "parkId": 18
+      "notes": "this is fun",
+      "userId": 2,
+      "parkId": 18,
+      "id": 13
     },
     {
-      "id": 2,
-      "notes": "not a wild time at all",
+      "notes": "this is fun",
+      "userId": 2,
+      "parkId": 19,
+      "id": 16
+    },
+    {
+      "id": 17,
+      "notes": "real fun",
       "userId": 1,
       "parkId": 29
     },
     {
-      "id": 4,
-      "notes": "it was an elegant time",
+      "notes": "sdfsdfsddsfsdf",
       "userId": 1,
-      "parkId": 16
+      "parkId": 12,
+      "id": 19
     },
     {
-      "id": 5,
-      "notes": "wiggle bear danced on me",
+      "notes": "this is fun",
       "userId": 1,
-      "parkId": 34
+      "parkId": 12,
+      "id": 20
     },
     {
-      "id": 8,
-      "notes": "real wild time",
-      "userId": 2,
-      "parkId": 28
+      "notes": "as;ldkfasdfkjsdfasfd",
+      "userId": 1,
+      "parkId": 33,
+      "id": 21
     },
     {
-      "id": 9,
-      "notes": "real scary!!!!!!!!",
-      "userId": 2,
-      "parkId": 17
+      "notes": "asdasdfsadfaddfsdf",
+      "userId": 1,
+      "parkId": 13,
+      "id": 22
+    },
+    {
+      "notes": "asdfasdfdsdssdfsdfsdf",
+      "userId": 1,
+      "parkId": 7,
+      "id": 23
+    },
+    {
+      "notes": "sdfsfddssdfdsffds",
+      "userId": 1,
+      "parkId": 3,
+      "id": 25
+    },
+    {
+      "notes": "SSDDSFFSDFDSFFD",
+      "userId": 1,
+      "parkId": 1,
+      "id": 26
     }
   ],
   "parks": [
+    {
+      "id": 0,
+      "name": "PLEASE SELECT A PARK"
+    },
     {
       "id": 1,
       "name": "Audra State Park",
@@ -222,7 +250,7 @@
       "id": 29,
       "name": "Tomlinson Run State Park",
       "imageURL": "../images/TomlinsonRun.jpg",
-      "description": ""
+      "description": "Located near the foremost tip of the Northern Panhandle along the Ohio River, Tomlinson Run can claim the title of West Virginia’s “top park.” This park’s wide range of recreational opportunities attract local and out-of-state visitors and include camping, picnicking, boating, miniature golf, swimming, basketball and volleyball. The park's 1,398 acres are roughly divided into two sections: a wilderness area with heavily forested hills, overhanging cliffs of sandstone and shale, and many wildflowers and fauna, and a developed area with traditional park offerings."
     },
     {
       "id": 30,
