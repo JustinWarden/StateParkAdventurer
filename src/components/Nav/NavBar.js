@@ -38,6 +38,7 @@ class NavBar extends Component {
               <li><Link className="nav-link" to="/home">Add a Park</Link></li>
               <li><Link className="nav-link" to="/meritbadges">Merit Badges</Link></li>
               <li><Link className="nav-link"to="/history">Park History</Link></li>
+              <li><Link className="nav-link"to="/ranking">Adventurer Ranking</Link></li>
              </React.Fragment>
             )}
           </ul>

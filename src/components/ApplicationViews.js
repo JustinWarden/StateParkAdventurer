@@ -5,7 +5,7 @@ import BadgeList from './meritbadges/BadgeList'
 import HistoryCard from './history/HistoryCard'
 import Callback from './authentication/Callback'
 import DetailCard from './meritbadges/DetailCard'
-import RankingCard from './Ranking/RankingCard'
+import RankingCard from './RankingCard'
 // import Auth0Client from "./authentication/Auth";
 
 class ApplicationViews extends Component {
