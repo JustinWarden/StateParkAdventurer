@@ -13,34 +13,88 @@
     ],
     "visitedParks": [
       {
-        "notes": "wow a fun time",
+        "notes": "this is fun",
+        "userId": 2,
+        "parkId": 18,
+        "id": 13
+      },
+      {
+        "id": 17,
+        "notes": "real fun",
         "userId": 1,
+        "parkId": 29
+      },
+      {
+        "notes": "sdfsdfsddsfsdf",
+        "userId": 1,
+        "parkId": 12,
+        "id": 19
+      },
+      {
+        "notes": "asdfasdfdsdssdfsdfsdf",
+        "userId": 1,
+        "parkId": 7,
+        "id": 23
+      },
+      {
+        "notes": "sdfsdfdsfdsdfdsf",
+        "userId": 3,
+        "parkId": 12,
+        "id": 24
+      },
+      {
+        "notes": "gfgdfdfdfdffdg",
+        "userId": 3,
         "parkId": 13,
-        "id": 4
+        "id": 25
       },
       {
-        "notes": "yay yay yay ",
-        "userId": 1,
-        "parkId": 6,
-        "id": 5
+        "notes": "asaasdsasdasda",
+        "userId": 3,
+        "parkId": 15,
+        "id": 27
       },
       {
-        "notes": "i like to party",
-        "userId": 1,
-        "parkId": 33,
-        "id": 6
+        "notes": "real fun",
+        "userId": 3,
+        "parkId": 14,
+        "id": 28
       },
       {
-        "notes": "lots of bears",
-        "userId": 1,
-        "parkId": 3,
-        "id": 8
+        "notes": "chooo choooo",
+        "userId": 3,
+        "parkId": 13,
+        "id": 29
       },
       {
-        "notes": "it was sunny",
-        "userId": 1,
-        "parkId": 9,
-        "id": 9
+        "notes": "i fell down ",
+        "userId": 2,
+        "parkId": 14,
+        "id": 31
+      },
+      {
+        "notes": "this ran too far",
+        "userId": 2,
+        "parkId": 29,
+        "id": 32
+      },
+      {
+        "notes": "long fall down",
+        "userId": 2,
+        "parkId": 14,
+        "id": 33
+      },
+      {
+        "notes": "big island",
+        "userId": 2,
+        "parkId": 7,
+        "id": 34
+      },
+      {
+        "notes": "i got spooked",
+        "userId": 2,
+        "parkId": 17,
+        "id": 35
       }
     ],
     "parks": [

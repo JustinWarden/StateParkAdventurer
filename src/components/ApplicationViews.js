@@ -5,6 +5,7 @@ import BadgeList from './meritbadges/BadgeList'
 import HistoryCard from './history/HistoryCard'
 import Callback from './authentication/Callback'
 import DetailCard from './meritbadges/DetailCard'
+import RankingCard from './Ranking/RankingCard'
 // import Auth0Client from "./authentication/Auth";
 
 class ApplicationViews extends Component {
@@ -27,6 +28,9 @@ path= "/home" render={(props)=> {
         }} />
         <Route path="/history" render={(props) => {
           return <HistoryCard {...props} />
+        }} />
+        <Route path="/ranking" render={(props) => {
+          return <RankingCard {...props} />
         }} />
         <Route exact path="/callback" component={Callback} />
 

@@ -9,6 +9,11 @@
       "aud": "auth0|5da5e89a8c55f60c69bdafb8",
       "name": "scarylarry",
       "id": 2
+    },
+    {
+      "aud": "auth0|5db0618a3c8e280c5e5c89c8",
+      "name": "jDawg Jenkins",
+      "id": 3
     }
   ],
   "visitedParks": [
@@ -17,12 +22,6 @@
       "userId": 2,
       "parkId": 18,
       "id": 13
-    },
-    {
-      "notes": "this is fun",
-      "userId": 2,
-      "parkId": 19,
-      "id": 16
     },
     {
       "id": 17,
@@ -37,40 +36,70 @@
       "id": 19
     },
     {
-      "notes": "this is fun",
-      "userId": 1,
-      "parkId": 12,
-      "id": 20
-    },
-    {
-      "notes": "as;ldkfasdfkjsdfasfd",
-      "userId": 1,
-      "parkId": 33,
-      "id": 21
-    },
-    {
-      "notes": "asdasdfsadfaddfsdf",
-      "userId": 1,
-      "parkId": 13,
-      "id": 22
-    },
-    {
       "notes": "asdfasdfdsdssdfsdfsdf",
       "userId": 1,
       "parkId": 7,
       "id": 23
     },
     {
-      "notes": "sdfsfddssdfdsffds",
-      "userId": 1,
-      "parkId": 3,
+      "notes": "sdfsdfdsfdsdfdsf",
+      "userId": 3,
+      "parkId": 12,
+      "id": 24
+    },
+    {
+      "notes": "gfgdfdfdfdffdg",
+      "userId": 3,
+      "parkId": 13,
       "id": 25
     },
     {
-      "notes": "SSDDSFFSDFDSFFD",
-      "userId": 1,
-      "parkId": 1,
-      "id": 26
+      "notes": "asaasdsasdasda",
+      "userId": 3,
+      "parkId": 15,
+      "id": 27
+    },
+    {
+      "notes": "real fun",
+      "userId": 3,
+      "parkId": 14,
+      "id": 28
+    },
+    {
+      "notes": "chooo choooo",
+      "userId": 3,
+      "parkId": 13,
+      "id": 29
+    },
+    {
+      "notes": "i fell down ",
+      "userId": 2,
+      "parkId": 14,
+      "id": 31
+    },
+    {
+      "notes": "this ran too far",
+      "userId": 2,
+      "parkId": 29,
+      "id": 32
+    },
+    {
+      "notes": "long fall down",
+      "userId": 2,
+      "parkId": 14,
+      "id": 33
+    },
+    {
+      "notes": "big island",
+      "userId": 2,
+      "parkId": 7,
+      "id": 34
+    },
+    {
+      "notes": "i got spooked",
+      "userId": 2,
+      "parkId": 17,
+      "id": 35
     }
   ],
   "parks": [
