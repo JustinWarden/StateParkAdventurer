@@ -12,6 +12,7 @@ small {
   .site-title {
     color: orange;
     text-align: center;
+    font-size: 3em;
   }
 
   nav .container {
@@ -22,14 +23,15 @@ small {
 
   nav .container li {
     background-image: url(../images/rock.jpg);
-    background-size: 50px;
+    background-size: 100px;
     flex: 1;
     padding: 10px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
+    font-weight: bold;
     color:yellow;
     box-sizing: border-box;
-    background-color: rgb(216, 11, 11);
+    background-color:rgb(4, 27, 4);
     list-style-type: none;
   }
 
@@ -38,5 +40,5 @@ small {
   }
 
   nav .container a:hover {
-    color: red;
+    color: rgb(176, 176, 247);
   }

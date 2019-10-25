@@ -11,19 +11,24 @@ textarea {
     background-size: cover;
 	color: yellow;
 	font-family: 'Comfortaa', Arial, sans-serif;
-	font-size: 14px;
-	line-height: 1.5;
+	font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
 }
 select{
     color: black;
 }
 button{
     background-color: blue;
-    color: yellow
+    width: 80px;
+    height: 32px;
+    color: yellow;
+    font-weight: bold;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Patua One', serif;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .section-container{
@@ -54,13 +59,16 @@ img{
     width: 50%
 }
 .historypicsone{
-    width: 50%
+    width: 50%;
+    float: right;
 }
 
 .historypicstwo{
-    width: 50%
+    width: 50%;
+    float: left;
 }
 
 .historypicsthree{
-    width: 50%
+    width: 50%;
+    float: right;
 }
