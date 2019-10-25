@@ -72,12 +72,6 @@
       "id": 29
     },
     {
-      "notes": "i fell down ",
-      "userId": 2,
-      "parkId": 14,
-      "id": 31
-    },
-    {
       "notes": "this ran too far",
       "userId": 2,
       "parkId": 29,
@@ -94,12 +88,6 @@
       "userId": 2,
       "parkId": 7,
       "id": 34
-    },
-    {
-      "notes": "i got spooked",
-      "userId": 2,
-      "parkId": 17,
-      "id": 35
     }
   ],
   "parks": [
