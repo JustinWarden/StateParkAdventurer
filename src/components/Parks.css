@@ -4,8 +4,7 @@
 /*Typography
 --------------------------------------------------------------*/
 body,
-input,
-textarea {
+input{
     background-image: url("./images/fern.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,16 +14,50 @@ textarea {
     line-height: 1.5;
     text-align: center;
 }
+textarea{
+   width: 15em;
+    background-image: url("./images/fern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: yellow;
+	font-family: 'Comfortaa', Arial, sans-serif;
+	font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+.park-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 select{
     color: black;
+    font-size: 1em ;
 }
-button{
-    background-color: blue;
-    width: 80px;
-    height: 32px;
-    color: yellow;
-    font-weight: bold;
-}
+button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #009900;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(56, 55, 55);
+  }
+
+  button:hover {background-color: #00ff00}
+
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Patua One', serif;
@@ -46,7 +79,7 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: center;
 }
 
-.card{
+.card {
     width: 25vw;
     padding: 1em;
     margin: 1em;
@@ -54,8 +87,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 img{
-    display: block;
-    height: auto;
     border-radius: 50%;
     width: 50%
 }
@@ -70,6 +101,7 @@ img{
 }
 
 .historypicsthree{
+
     width: 50%;
     float: right;
 }

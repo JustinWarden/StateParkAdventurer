@@ -38,9 +38,9 @@ class NavBar extends Component {
                 Sign Out
               </button>
 
-              <label>
+              {/* <label>
                 {auth0Client.getProfile().name}
-              </label>
+              </label> */}
 
              </React.Fragment>
             )}

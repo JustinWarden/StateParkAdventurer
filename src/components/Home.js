@@ -36,7 +36,7 @@ class Home extends Component {
     constructNewPark = evt => {
       evt.preventDefault();
       if (this.state.parkId === "" || this.state.notes === "") {
-        window.alert("Please Select a Park and Enter Notes");
+        window.alert("Please Select a Park and Enter Notes You Silly Rascal!!!");
       } else {
         const visitedParks = {
           name: this.state.name,
@@ -75,7 +75,7 @@ class Home extends Component {
               </select>
 
     <br></br>
-    <h3>NOTES</h3>
+    <h2>NOTES</h2>
     <br></br>
     <textarea id="notes"
     onChange={this.handleFieldChange}

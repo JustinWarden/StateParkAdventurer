@@ -22,7 +22,7 @@ class BadgeList extends Component {
 
       var result = parksFromDatabase.length
 
-      var parkPercent = (result * 2.86).toFixed(2)
+      var parkPercent = (result * 2.86).toFixed(0)
 
       console.log(parkPercent);
 
