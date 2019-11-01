@@ -13,6 +13,7 @@ input{
 	font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    text-shadow: 2px 2px rgb(7, 7, 7);
 }
 textarea{
    width: 15em;
@@ -24,6 +25,7 @@ textarea{
 	font-size: 18px;
     line-height: 1.5;
     text-align: center;
+    text-shadow: 2px 2px rgb(7, 7, 7);
 }
 .park-image{
     display: flex;
@@ -48,7 +50,8 @@ button {
     background-color: #009900;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px rgb(56, 55, 55);
+    box-shadow: 0 9px rgb(7, 7, 7);
+    text-shadow: 2px 2px rgb(7, 7, 7);
   }
 
   button:hover {background-color: #00ff00}
@@ -63,6 +66,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Patua One', serif;
   letter-spacing: 2px;
   text-align: center;
+  text-shadow: 3px 3px rgb(7, 7, 7);
 }
 
 .section-container{
@@ -76,7 +80,7 @@ h1,h2,h3,h4,h5,h6 {
 .container-cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+     justify-content: center;
 }
 
 .card {

@@ -32,12 +32,12 @@ class RankingCard extends Component {
     render() {
         return (
             <>
-                <h1>YOUR RANKING</h1>
+                <h1>ADVENTURER RANKING</h1>
                 <div className="username-card">
                     <br></br>
-                    {this.state.userName.map((singleUser,) => {
+                    <h2>{this.state.userName.map((singleUser,) => {
                         return <p>Name:{" "}{singleUser.name}<br></br> Parks Visited:{" "}{singleUser.visitedParks.length}</p>
-                    })}
+                    })}</h2>
 
                 </div>
             </>

@@ -280,6 +280,18 @@
       "userId": 1,
       "parkId": 35,
       "id": 74
+    },
+    {
+      "notes": "those waters sure were black",
+      "userId": 2,
+      "parkId": 6,
+      "id": 75
+    },
+    {
+      "notes": "what a fun time",
+      "userId": 2,
+      "parkId": 26,
+      "id": 76
     }
   ],
   "parks": [

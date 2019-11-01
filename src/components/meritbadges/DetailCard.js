@@ -66,17 +66,19 @@ class DetailCard extends Component {
 
     render() {
       return (
+        <>
+        <center>
         <div className="card">
           <div className="card-content">
-            <h2>{this.state.name}</h2>
-            <picture>
-            <img src={this.state.imageURL} alt="State Park" />
-          </picture>
+            <h1>{this.state.name}</h1>
 
-            <h3>Description:</h3>
+            <h2>Description:</h2>
             {this.state.description}
 
-            <h3>Notes:</h3>
+            <br></br>
+            <button type="button"onClick={this.handleDelete}>Remove Park</button>
+
+            <h2>Notes:</h2>
            <p> {this.state.notes}</p>
 
             <textarea id="notes"
@@ -87,10 +89,11 @@ class DetailCard extends Component {
             <br></br>
             <button type="button"onClick= {this.updateExistingNotes}>Edit Notes
             </button>
-            <br></br>
-            <button type="button"onClick={this.handleDelete}>Remove Park</button>
-          </div>
+
+            </div>
         </div>
+        </center>
+</>
       );
     }
 }
