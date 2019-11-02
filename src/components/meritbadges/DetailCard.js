@@ -72,7 +72,7 @@ class DetailCard extends Component {
           <div className="card-content">
             <h1>{this.state.name}</h1>
 
-            <h2>Description:</h2>
+            <h2>Park Facts:</h2>
             {this.state.description}
 
             <br></br>

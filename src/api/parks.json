@@ -14,6 +14,11 @@
       "aud": "auth0|5db0618a3c8e280c5e5c89c8",
       "name": "jDawg Jenkins",
       "id": 3
+    },
+    {
+      "aud": "auth0|5dbcef1312b5bb0e260eb5b6",
+      "name": "stinkycheeseman",
+      "id": 4
     }
   ],
   "visitedParks": [
@@ -52,12 +57,6 @@
       "userId": 3,
       "parkId": 13,
       "id": 29
-    },
-    {
-      "notes": "this ran too far",
-      "userId": 2,
-      "parkId": 29,
-      "id": 32
     },
     {
       "notes": "long fall down",
@@ -292,6 +291,30 @@
       "userId": 2,
       "parkId": 26,
       "id": 76
+    },
+    {
+      "notes": "thats one tall rock",
+      "userId": 2,
+      "parkId": 25,
+      "id": 77
+    },
+    {
+      "notes": "that was a nice bath",
+      "userId": 4,
+      "parkId": 5,
+      "id": 78
+    },
+    {
+      "notes": "i petted the little beaver",
+      "userId": 4,
+      "parkId": 21,
+      "id": 79
+    },
+    {
+      "notes": "chooo choooo said the train",
+      "userId": 4,
+      "parkId": 13,
+      "id": 80
     }
   ],
   "parks": [
