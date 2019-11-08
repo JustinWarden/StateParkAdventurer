@@ -1,69 +1,29 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WEST VIRGINIA STATE PARK ADVENTURER
+West Virginia State Park Adventurer is an application to list state parks and track state parks that the user has visited. This application provides individualized state park information, and a history of the formation of the West Virginia State Park system. Users can also keep notes or create a list for each individual state park visited. Users can keep track of the percentage of State Parks visited as well as compare their ranking with other users to find out who is a true State Park Adventurer.
 
-## Available Scripts
+The idea for this application was inspired by the West Virginia State Parks VIPP (Very Important Parks Person) program.   This program allows park visitors to receive a stamp for every park visited.   The State Park Adventurer Application makes this process digital and enhances the features of this program.  This Application provides a simple way to keep track of State Parks visited, while also providing information about each State Park for future adventures.
 
-In the project directory, you can run:
+This application was built with:
+Auth 0 (Zero)
+React.Js
+JSON API
+CSS
+JSX
 
-### `npm start`
+Run Application
+Create a new repository
+run:
+npm install
+inside of root repository.
+run:
+json-server -p 1982  –w parks.json
+inside of root repository to access the database.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Npm Start
+To load application
+Once the application has loaded use Auth 0 to create a username and account to sign in.
+Then select state parks visited add a note about the park and submit.
+All state parks visited will be saved to the State Park Merit Badge page. Where a user can also view their percentage of State Parks visited.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# StateParkAdventurer
+Select State park to view park facts and individualized notes for each State Park.
+User can also navigate to Park History or view Adventurer Ranking
