@@ -24,7 +24,9 @@ class Home extends Component {
       const userId = parseInt(sessionStorage.getItem("credentials"));
       console.log(userId);
       console.log("PARK LIST: ComponentDidMount");
+
       //getAll from parksManager and hang on to that data; put it in state
+
       ParksManager.getAll(userId).then(parksFromDatabase => {
         console.log(parksFromDatabase);
         this.setState({

@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 class BadgeCard extends Component {
   render() {
     return (
+      //this creates the merit badge card
+      
       <div className="card">
         <div className="card-content">
           <div class ="park-image">

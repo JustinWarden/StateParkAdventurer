@@ -47,7 +47,7 @@ class DetailCard extends Component {
 
     componentDidMount(){
         console.log("ParkDetail: ComponentDidMount");
-        //get(id) from AnimalManager and hang on to that data; put it into state
+        //get(id) from ParkManager and hang on to that data; put it into state
         VisitedParksManager.getOne(this.props.match.params.parkId)
         .then((park) => {
             console.log(park)

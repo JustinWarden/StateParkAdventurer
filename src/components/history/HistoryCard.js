@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 class HistoryCard extends Component {
   render() {
     return (
+      //this adds park history and photos to the park history page
       <article>
       <h1>WV State Park History</h1>
       <p>West Virginia has a well-developed state park system that includes 35 parks and resorts, nine state forests, five wildlife management areas, and two rail-trails. These recreational areas offer hiking, biking, horseback riding, fishing, boating, downhill and cross-country skiing, camping, golfing, indoor and outdoor swimming, and nature activities. Guests can camp, occupy rustic or deluxe rental cabins, or stay in fine air-conditioned lodges with restaurants.
