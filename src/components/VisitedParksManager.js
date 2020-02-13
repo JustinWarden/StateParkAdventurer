@@ -1,5 +1,6 @@
 const remoteURL = "http://localhost:1982";
 
+// CRUD functions
 export default {
   getOne(id) {
     return fetch(`${remoteURL}/visitedParks/${id}/?_expand=park`).then(result => result.json());

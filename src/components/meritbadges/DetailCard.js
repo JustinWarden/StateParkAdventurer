@@ -32,7 +32,6 @@ class DetailCard extends Component {
 
     updateExistingNotes = evt => {
         evt.preventDefault();
-        // this.setState({ loadingStatus: true });
         const editedNote = {
           id: this.props.match.params.parkId,
           notes: this.state.notes,
@@ -63,7 +62,7 @@ class DetailCard extends Component {
         });
         console.log("ParkDetail: ComponentDidMount");
     };
-
+// this shows the park details with park facts and the notes
     render() {
       return (
         <>
@@ -86,6 +85,7 @@ class DetailCard extends Component {
     >
     </textarea>
 
+{/* submit button to update notes */}
             <br></br>
             <button type="button"onClick= {this.updateExistingNotes}>Edit Notes
             </button>

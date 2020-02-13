@@ -14,7 +14,7 @@ class BadgeList extends Component {
 
   componentDidMount() {
     console.log("PARK LIST: ComponentDidMount");
-    //getAll from parksManager and hang on to that data; put it in state
+//getAll from parksManager and hang on to that data; put it in state
     VisitedParksManager.getAll().then(parksFromDatabase => {
       console.log(parksFromDatabase)
 
@@ -36,6 +36,7 @@ class BadgeList extends Component {
 
   render() {
 
+    // this will display titel parkpercent and meritbadges
     return (
       <>
 <h1>YOUR MERIT BADGES</h1>

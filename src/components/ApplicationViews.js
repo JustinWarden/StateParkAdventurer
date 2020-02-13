@@ -13,7 +13,7 @@ class ApplicationViews extends Component {
     return (
 
       <React.Fragment>
-
+{/* runs the route for the nav links and what will be viewed and transfers data through props */}
 <Route
 path= "/home" render={(props)=> {
   return <Home {...props}/>

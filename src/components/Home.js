@@ -56,6 +56,7 @@ class Home extends Component {
       console.log(this.props)
     };
 
+    // this will show the park list select dropdown menu.  populated from json server
     render() {
       console.log("PARK LIST: Render");
     return (
@@ -76,6 +77,7 @@ class Home extends Component {
                 ))}
               </select>
 
+{/* add notes to park selected  */}
     <br></br>
     <h2>NOTES</h2>
     <br></br>
@@ -84,7 +86,7 @@ class Home extends Component {
     >
     </textarea>
     <br></br>
-
+{/* submit state park visited with notes */}
     <button
                 type="button"
                 onClick={this.constructNewPark}

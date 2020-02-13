@@ -5,6 +5,7 @@ import {withRouter} from 'react-router-dom';
 import auth0Client from "./authentication/Auth";
 import "./Parks.css"
 
+// check to see if user is logged into account
 class Parks extends Component {
   async componentDidMount() {
     if (this.props.location.pathname === '/callback') return;

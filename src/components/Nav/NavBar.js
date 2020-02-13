@@ -11,7 +11,7 @@ class NavBar extends Component {
   };
 
   render(){
-
+// page title
     return (
       <header>
         <h1 className="site-title">WEST VIRGINIA <br />
@@ -26,23 +26,18 @@ class NavBar extends Component {
               <button className="btn btn-success" onClick={auth0Client.signIn}>Sign In</button>
         ) : (
             <React.Fragment>
-
+{/* these are the nav links */}
               <li><Link className="nav-link" to="/home">Add a Park</Link></li>
               <li><Link className="nav-link" to="/meritbadges">Merit Badges</Link></li>
               <li><Link className="nav-link"to="/history">Park History</Link></li>
               <li><Link className="nav-link"to="/ranking">Adventurer Ranking</Link></li>
+{/* log out button */}
               <button
                 className="btn btn-danger"
                 onClick={this.signOut}
               >
                 Sign Out
-              </button>
-
-              {/* <label>
-                {auth0Client.getProfile().name}
-              </label> */}
-
-             </React.Fragment>
+              </button>            </React.Fragment>
             )}
           </ul>
         </nav>

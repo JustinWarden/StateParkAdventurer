@@ -5,6 +5,7 @@ class HistoryCard extends Component {
     return (
       //this adds park history and photos to the park history page
       <article>
+       
       <h1>WV State Park History</h1>
       <p>West Virginia has a well-developed state park system that includes 35 parks and resorts, nine state forests, five wildlife management areas, and two rail-trails. These recreational areas offer hiking, biking, horseback riding, fishing, boating, downhill and cross-country skiing, camping, golfing, indoor and outdoor swimming, and nature activities. Guests can camp, occupy rustic or deluxe rental cabins, or stay in fine air-conditioned lodges with restaurants.
       The state park system began in January 1925 when the Game and Fish Commission purchased 4,560 acres of second-growth timberland in Pocahontas County to develop as a wildlife and timber preserve. Later this became Watoga State Park, now West Virginia’s oldest and largest state park with more than 10,000 acres.</p>

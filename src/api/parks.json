@@ -19,6 +19,16 @@
       "aud": "auth0|5dbcef1312b5bb0e260eb5b6",
       "name": "stinkycheeseman",
       "id": 4
+    },
+    {
+      "aud": "auth0|5e3d6c06f541c90e730a7b55",
+      "name": "justin.warden",
+      "id": 5
+    },
+    {
+      "aud": "auth0|5dcee61990d3f40ed127d753",
+      "name": "muskratjenkins",
+      "id": 6
     }
   ],
   "visitedParks": [
@@ -315,6 +325,66 @@
       "userId": 2,
       "parkId": 13,
       "id": 81
+    },
+    {
+      "notes": "monkey man mahoon lives there",
+      "userId": null,
+      "parkId": 17,
+      "id": 82
+    },
+    {
+      "notes": "chooo choooooooo",
+      "userId": 5,
+      "parkId": 13,
+      "id": 83
+    },
+    {
+      "notes": "that was one big stone wall",
+      "userId": 6,
+      "parkId": 28,
+      "id": 85
+    },
+    {
+      "notes": "oh what fun",
+      "userId": 5,
+      "parkId": 8,
+      "id": 86
+    },
+    {
+      "notes": "what a fun camping trip",
+      "userId": null,
+      "parkId": 10,
+      "id": 93
+    },
+    {
+      "notes": "oh what fun",
+      "userId": null,
+      "parkId": 14,
+      "id": 95
+    },
+    {
+      "notes": "chooo choooo",
+      "userId": null,
+      "parkId": 13,
+      "id": 100
+    },
+    {
+      "notes": "it was fun",
+      "userId": 6,
+      "parkId": 27,
+      "id": 102
+    },
+    {
+      "notes": "it was fun",
+      "userId": 6,
+      "parkId": 9,
+      "id": 103
+    },
+    {
+      "notes": "it was fun",
+      "userId": 6,
+      "parkId": 7,
+      "id": 104
     }
   ],
   "parks": [
